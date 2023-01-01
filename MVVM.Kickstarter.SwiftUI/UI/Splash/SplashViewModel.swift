@@ -1,6 +1,6 @@
 //
 //  SplashViewModel.swift
-//  MVVM.Demo.SwiftUI
+//  MVVM.Kickstarter.SwiftUI
 //
 //  Created by Mert Saraç on 31.12.2022.
 //

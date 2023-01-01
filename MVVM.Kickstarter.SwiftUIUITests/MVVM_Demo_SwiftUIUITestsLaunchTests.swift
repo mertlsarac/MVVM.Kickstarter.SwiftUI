@@ -1,6 +1,6 @@
 //
 //  MVVM_Demo_SwiftUIUITestsLaunchTests.swift
-//  MVVM.Demo.SwiftUIUITests
+//  MVVM.Kickstarter.SwiftUIUITests
 //
 //  Created by Jason Lew-Rapai on 11/15/21.
 //

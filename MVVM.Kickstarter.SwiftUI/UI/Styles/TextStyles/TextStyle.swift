@@ -1,6 +1,6 @@
 //
 //  TextStyle.swift
-//  MVVM.Demo.SwiftUI
+//  MVVM.Kickstarter.SwiftUI
 //
 //  Created by Jason Lew-Rapai on 11/15/21.
 //

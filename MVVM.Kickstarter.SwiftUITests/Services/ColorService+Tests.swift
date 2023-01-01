@@ -1,6 +1,6 @@
 //
 //  ColorService+Tests.swift
-//  MVVM.Demo.SwiftUITests
+//  MVVM.Kickstarter.SwiftUITests
 //
 //  Created by Jason Lew-Rapai on 2/28/22.
 //

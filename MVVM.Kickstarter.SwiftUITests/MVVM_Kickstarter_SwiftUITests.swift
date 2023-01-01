@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import MVVM_Demo_SwiftUI
+@testable import MVVM_Kickstarter_SwiftUI
 
 class MVVM_Kickstarter_SwiftUITests: XCTestCase {
 

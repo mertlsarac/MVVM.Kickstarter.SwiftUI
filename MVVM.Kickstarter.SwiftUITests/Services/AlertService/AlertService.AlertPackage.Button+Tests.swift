@@ -1,6 +1,6 @@
 //
 //  AlertService.AlertPackage.Button+Tests.swift
-//  MVVM.Demo.SwiftUITests
+//  MVVM.Kickstarter.SwiftUITests
 //
 //  Created by Jason Lew-Rapai on 3/14/22.
 //

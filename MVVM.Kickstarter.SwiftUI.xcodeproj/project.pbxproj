@@ -27,7 +27,7 @@
 		96B4E06527432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E06427432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift */; };
 		96B4E06927432D6200EC88B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4E06827432D6200EC88B3 /* Assets.xcassets */; };
 		96B4E06C27432D6200EC88B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4E06B27432D6200EC88B3 /* Preview Assets.xcassets */; };
-		96B4E07627432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E07527432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift */; };
+		96B4E07627432D6300EC88B3 /* MVVM_Kickstarter_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E07527432D6300EC88B3 /* MVVM_Kickstarter_SwiftUITests.swift */; };
 		96B4E08027432D6300EC88B3 /* MVVM_Demo_SwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E07F27432D6300EC88B3 /* MVVM_Demo_SwiftUIUITests.swift */; };
 		96B4E08227432D6300EC88B3 /* MVVM_Demo_SwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E08127432D6300EC88B3 /* MVVM_Demo_SwiftUIUITestsLaunchTests.swift */; };
 		96B4E09127432E1100EC88B3 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E09027432E1100EC88B3 /* ViewModel.swift */; };
@@ -106,13 +106,13 @@
 		9665D9672745C53B0055F1F6 /* ColorWizardConfiguration+Mock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorWizardConfiguration+Mock.swift"; sourceTree = "<group>"; };
 		968D344C27CD941700340C18 /* AlertService.AlertPackage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertService.AlertPackage+View.swift"; sourceTree = "<group>"; };
 		968D344E27CD978600340C18 /* ColorService+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorService+Tests.swift"; sourceTree = "<group>"; };
-		96B4E06127432D6100EC88B3 /* MVVM.Demo.SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.Demo.SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4E06127432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.Kickstarter.SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B4E06427432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Kickstarter_SwiftUIApp.swift; sourceTree = "<group>"; };
 		96B4E06827432D6200EC88B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B4E06B27432D6200EC88B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		96B4E07127432D6300EC88B3 /* MVVM.Demo.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM.Demo.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B4E07527432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Demo_SwiftUITests.swift; sourceTree = "<group>"; };
-		96B4E07B27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM.Demo.SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4E07127432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM.Kickstarter.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B4E07527432D6300EC88B3 /* MVVM_Kickstarter_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Kickstarter_SwiftUITests.swift; sourceTree = "<group>"; };
+		96B4E07B27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM.Kickstarter.SwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		96B4E07F27432D6300EC88B3 /* MVVM_Demo_SwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Demo_SwiftUIUITests.swift; sourceTree = "<group>"; };
 		96B4E08127432D6300EC88B3 /* MVVM_Demo_SwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Demo_SwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		96B4E09027432E1100EC88B3 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
@@ -263,7 +263,7 @@
 			children = (
 				96B4E06327432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */,
 				96B4E07427432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests */,
-				96B4E07E27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */,
+				96B4E07E27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests */,
 				96B4E06227432D6100EC88B3 /* Products */,
 			);
 			indentWidth = 2;
@@ -273,9 +273,9 @@
 		96B4E06227432D6100EC88B3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				96B4E06127432D6100EC88B3 /* MVVM.Demo.SwiftUI.app */,
-				96B4E07127432D6300EC88B3 /* MVVM.Demo.SwiftUITests.xctest */,
-				96B4E07B27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests.xctest */,
+				96B4E06127432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI.app */,
+				96B4E07127432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests.xctest */,
+				96B4E07B27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -307,18 +307,18 @@
 			children = (
 				964778892774F0C9002203DE /* TestExtensions */,
 				9647788E2774F1FD002203DE /* Services */,
-				96B4E07527432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift */,
+				96B4E07527432D6300EC88B3 /* MVVM_Kickstarter_SwiftUITests.swift */,
 			);
 			path = MVVM.Kickstarter.SwiftUITests;
 			sourceTree = "<group>";
 		};
-		96B4E07E27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */ = {
+		96B4E07E27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
 				96B4E07F27432D6300EC88B3 /* MVVM_Demo_SwiftUIUITests.swift */,
 				96B4E08127432D6300EC88B3 /* MVVM_Demo_SwiftUIUITestsLaunchTests.swift */,
 			);
-			path = MVVM.Demo.SwiftUIUITests;
+			path = MVVM.Kickstarter.SwiftUIUITests;
 			sourceTree = "<group>";
 		};
 		96B4E08F27432DEB00EC88B3 /* Core */ = {
@@ -495,9 +495,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		96B4E06027432D6100EC88B3 /* MVVM.Demo.SwiftUI */ = {
+		96B4E06027432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96B4E08527432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUI" */;
+			buildConfigurationList = 96B4E08527432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUI" */;
 			buildPhases = (
 				96B4E05D27432D6100EC88B3 /* Sources */,
 				96B4E05E27432D6100EC88B3 /* Frameworks */,
@@ -507,18 +507,18 @@
 			);
 			dependencies = (
 			);
-			name = MVVM.Demo.SwiftUI;
+			name = MVVM.Kickstarter.SwiftUI;
 			packageProductDependencies = (
 				96B4E0A127432EEE00EC88B3 /* CombineExt */,
 				96B4E0A427432EFC00EC88B3 /* Swinject */,
 			);
 			productName = MVVM.Demo.SwiftUI;
-			productReference = 96B4E06127432D6100EC88B3 /* MVVM.Demo.SwiftUI.app */;
+			productReference = 96B4E06127432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		96B4E07027432D6300EC88B3 /* MVVM.Demo.SwiftUITests */ = {
+		96B4E07027432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96B4E08827432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUITests" */;
+			buildConfigurationList = 96B4E08827432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUITests" */;
 			buildPhases = (
 				96B4E06D27432D6300EC88B3 /* Sources */,
 				96B4E06E27432D6300EC88B3 /* Frameworks */,
@@ -529,14 +529,14 @@
 			dependencies = (
 				96B4E07327432D6300EC88B3 /* PBXTargetDependency */,
 			);
-			name = MVVM.Demo.SwiftUITests;
+			name = MVVM.Kickstarter.SwiftUITests;
 			productName = MVVM.Demo.SwiftUITests;
-			productReference = 96B4E07127432D6300EC88B3 /* MVVM.Demo.SwiftUITests.xctest */;
+			productReference = 96B4E07127432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		96B4E07A27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */ = {
+		96B4E07A27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 96B4E08B27432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUIUITests" */;
+			buildConfigurationList = 96B4E08B27432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUIUITests" */;
 			buildPhases = (
 				96B4E07727432D6300EC88B3 /* Sources */,
 				96B4E07827432D6300EC88B3 /* Frameworks */,
@@ -547,9 +547,9 @@
 			dependencies = (
 				96B4E07D27432D6300EC88B3 /* PBXTargetDependency */,
 			);
-			name = MVVM.Demo.SwiftUIUITests;
+			name = MVVM.Kickstarter.SwiftUIUITests;
 			productName = MVVM.Demo.SwiftUIUITests;
-			productReference = 96B4E07B27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests.xctest */;
+			productReference = 96B4E07B27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -592,9 +592,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				96B4E06027432D6100EC88B3 /* MVVM.Demo.SwiftUI */,
-				96B4E07027432D6300EC88B3 /* MVVM.Demo.SwiftUITests */,
-				96B4E07A27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */,
+				96B4E06027432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */,
+				96B4E07027432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests */,
+				96B4E07A27432D6300EC88B3 /* MVVM.Kickstarter.SwiftUIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -686,7 +686,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96B4E07627432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift in Sources */,
+				96B4E07627432D6300EC88B3 /* MVVM_Kickstarter_SwiftUITests.swift in Sources */,
 				9647788B2774F0EE002203DE /* AnyPublisher+AwaitResults.swift in Sources */,
 				964778902774F240002203DE /* AuthenticationService+Tests.swift in Sources */,
 				968D344F27CD978600340C18 /* ColorService+Tests.swift in Sources */,
@@ -710,12 +710,12 @@
 /* Begin PBXTargetDependency section */
 		96B4E07327432D6300EC88B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96B4E06027432D6100EC88B3 /* MVVM.Demo.SwiftUI */;
+			target = 96B4E06027432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */;
 			targetProxy = 96B4E07227432D6300EC88B3 /* PBXContainerItemProxy */;
 		};
 		96B4E07D27432D6300EC88B3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 96B4E06027432D6100EC88B3 /* MVVM.Demo.SwiftUI */;
+			target = 96B4E06027432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */;
 			targetProxy = 96B4E07C27432D6300EC88B3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -844,7 +844,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVM.Demo.SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM.Kickstarter.SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = QGV9TK3SFM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -858,7 +858,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonrapai.MVVM-Demo-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mert.MVVM-Kickstarter-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -873,7 +873,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MVVM.Demo.SwiftUI/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MVVM.Kickstarter.SwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = QGV9TK3SFM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -887,7 +887,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.jasonrapai.MVVM-Demo-SwiftUI";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mert.MVVM-Kickstarter-SwiftUI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -1003,7 +1003,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96B4E08527432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUI" */ = {
+		96B4E08527432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96B4E08627432D6300EC88B3 /* Debug */,
@@ -1012,7 +1012,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96B4E08827432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUITests" */ = {
+		96B4E08827432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96B4E08927432D6300EC88B3 /* Debug */,
@@ -1021,7 +1021,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		96B4E08B27432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Demo.SwiftUIUITests" */ = {
+		96B4E08B27432D6300EC88B3 /* Build configuration list for PBXNativeTarget "MVVM.Kickstarter.SwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96B4E08C27432D6300EC88B3 /* Debug */,

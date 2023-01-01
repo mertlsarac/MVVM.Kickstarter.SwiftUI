@@ -1,6 +1,6 @@
 //
 //  AlertService.AlertPackage+View.swift
-//  MVVM.Demo.SwiftUI
+//  MVVM.Kickstarter.SwiftUI
 //
 //  Created by Jason Lew-Rapai on 2/28/22.
 //
