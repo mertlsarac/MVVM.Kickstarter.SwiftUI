@@ -12,8 +12,9 @@ import Swinject
 class AppRootCoordinator: ViewModel {
   private let resolver: Resolver
   
-  @Published private(set) var landingViewModel: LandingViewModel!
+  @Published private(set) var splashViewModel: SplashViewModel!
   
+  @Published var landingViewModel: LandingViewModel?
   @Published var signInViewModel: SignInViewModel?
   @Published var pulseViewModel: PulseViewModel?
   @Published var colorWizardCoordinator: ColorWizardCoordinator?
@@ -21,7 +22,7 @@ class AppRootCoordinator: ViewModel {
   init(resolver: Resolver) {
     self.resolver = resolver
     
-    self.landingViewModel = self.resolver.resolve(LandingViewModel.self)!
+    self.splashViewModel = self.resolver.resolve(SplashViewModel.self)!
       .setup(delegate: self)
   }
 }
@@ -64,5 +65,13 @@ extension AppRootCoordinator: PulseViewModelDelegate {
 extension AppRootCoordinator: ColorWizardCoordinatorDelegate {
   func colorWizardCoordinatorDidComplete(_ source: ColorWizardCoordinator) {
     self.colorWizardCoordinator = nil
+  }
+}
+
+// MARK: SplashViewModelDelegate
+extension AppRootCoordinator: SplashViewModelDelegate {
+  func welcomeSettingsDidFetch(_ source: SplashViewModel) {
+    self.landingViewModel = self.resolver.resolve(LandingViewModel.self)!
+      .setup(delegate: self)
   }
 }

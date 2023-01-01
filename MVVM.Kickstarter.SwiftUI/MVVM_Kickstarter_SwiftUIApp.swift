@@ -1,6 +1,6 @@
 //
-//  MVVM_Demo_SwiftUIApp.swift
-//  MVVM.Demo.SwiftUI
+//  MVVM_Kickstarter_SwiftUIApp.swift
+//  MVVM.Kickstarter.SwiftUI
 //
 //  Created by Jason Lew-Rapai on 11/15/21.
 //
@@ -10,7 +10,7 @@ import SwiftUI
 private let appAssembler: AppAssembler = AppAssembler()
 
 @main
-struct MVVM_Demo_SwiftUIApp: App {
+struct MVVM_Kickstarter_SwiftUIApp: App {
   var body: some Scene {
     WindowGroup {
       AppRootCoordinatorView(

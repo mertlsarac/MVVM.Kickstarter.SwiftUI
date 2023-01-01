@@ -10,6 +10,10 @@ import Swinject
 
 class ServiceAssembly: Assembly {
   func assemble(container: Container) {
+    container.register(WelcomeServiceProtocol.self) { r in
+      WelcomeService()
+    }.inObjectScope(.container)
+    
     container.register(AlertManager.self) { r in
       AlertManager()
     }.inObjectScope(.container)

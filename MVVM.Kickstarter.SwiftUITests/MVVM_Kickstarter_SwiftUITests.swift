@@ -1,6 +1,6 @@
 //
-//  MVVM_Demo_SwiftUITests.swift
-//  MVVM.Demo.SwiftUITests
+//  MVVM_Kickstarter_SwiftUITests.swift
+//  MVVM.Kickstarter.SwiftUITests
 //
 //  Created by Jason Lew-Rapai on 11/15/21.
 //
@@ -8,7 +8,7 @@
 import XCTest
 @testable import MVVM_Demo_SwiftUI
 
-class MVVM_Demo_SwiftUITests: XCTestCase {
+class MVVM_Kickstarter_SwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

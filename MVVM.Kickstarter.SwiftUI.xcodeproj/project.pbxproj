@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26CAF240296067EB00E0AB0B /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAF23F296067EB00E0AB0B /* SplashView.swift */; };
+		26CAF2422960680B00E0AB0B /* SplashViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAF2412960680B00E0AB0B /* SplashViewModel.swift */; };
+		26CAF244296068BD00E0AB0B /* WelcomeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26CAF243296068BD00E0AB0B /* WelcomeService.swift */; };
 		9647788B2774F0EE002203DE /* AnyPublisher+AwaitResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647788A2774F0EE002203DE /* AnyPublisher+AwaitResults.swift */; };
 		964778902774F240002203DE /* AuthenticationService+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9647788F2774F240002203DE /* AuthenticationService+Tests.swift */; };
 		964778922774F64A002203DE /* Result+TestExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 964778912774F64A002203DE /* Result+TestExtensions.swift */; };
@@ -21,7 +24,7 @@
 		9665D9682745C53B0055F1F6 /* ColorWizardConfiguration+Mock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9665D9672745C53B0055F1F6 /* ColorWizardConfiguration+Mock.swift */; };
 		968D344D27CD941700340C18 /* AlertService.AlertPackage+View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D344C27CD941700340C18 /* AlertService.AlertPackage+View.swift */; };
 		968D344F27CD978600340C18 /* ColorService+Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 968D344E27CD978600340C18 /* ColorService+Tests.swift */; };
-		96B4E06527432D6100EC88B3 /* MVVM_Demo_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E06427432D6100EC88B3 /* MVVM_Demo_SwiftUIApp.swift */; };
+		96B4E06527432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E06427432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift */; };
 		96B4E06927432D6200EC88B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4E06827432D6200EC88B3 /* Assets.xcassets */; };
 		96B4E06C27432D6200EC88B3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96B4E06B27432D6200EC88B3 /* Preview Assets.xcassets */; };
 		96B4E07627432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96B4E07527432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift */; };
@@ -86,6 +89,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26CAF23F296067EB00E0AB0B /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
+		26CAF2412960680B00E0AB0B /* SplashViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewModel.swift; sourceTree = "<group>"; };
+		26CAF243296068BD00E0AB0B /* WelcomeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeService.swift; sourceTree = "<group>"; };
 		9647788A2774F0EE002203DE /* AnyPublisher+AwaitResults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AnyPublisher+AwaitResults.swift"; sourceTree = "<group>"; };
 		9647788F2774F240002203DE /* AuthenticationService+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AuthenticationService+Tests.swift"; sourceTree = "<group>"; };
 		964778912774F64A002203DE /* Result+TestExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Result+TestExtensions.swift"; sourceTree = "<group>"; };
@@ -101,7 +107,7 @@
 		968D344C27CD941700340C18 /* AlertService.AlertPackage+View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertService.AlertPackage+View.swift"; sourceTree = "<group>"; };
 		968D344E27CD978600340C18 /* ColorService+Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ColorService+Tests.swift"; sourceTree = "<group>"; };
 		96B4E06127432D6100EC88B3 /* MVVM.Demo.SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.Demo.SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		96B4E06427432D6100EC88B3 /* MVVM_Demo_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Demo_SwiftUIApp.swift; sourceTree = "<group>"; };
+		96B4E06427432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MVVM_Kickstarter_SwiftUIApp.swift; sourceTree = "<group>"; };
 		96B4E06827432D6200EC88B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96B4E06B27432D6200EC88B3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		96B4E07127432D6300EC88B3 /* MVVM.Demo.SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MVVM.Demo.SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -175,6 +181,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26CAF23E296067C300E0AB0B /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				26CAF23F296067EB00E0AB0B /* SplashView.swift */,
+				26CAF2412960680B00E0AB0B /* SplashViewModel.swift */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
 		964778892774F0C9002203DE /* TestExtensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -246,8 +261,8 @@
 		96B4E05827432D6100EC88B3 = {
 			isa = PBXGroup;
 			children = (
-				96B4E06327432D6100EC88B3 /* MVVM.Demo.SwiftUI */,
-				96B4E07427432D6300EC88B3 /* MVVM.Demo.SwiftUITests */,
+				96B4E06327432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */,
+				96B4E07427432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests */,
 				96B4E07E27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */,
 				96B4E06227432D6100EC88B3 /* Products */,
 			);
@@ -265,18 +280,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		96B4E06327432D6100EC88B3 /* MVVM.Demo.SwiftUI */ = {
+		96B4E06327432D6100EC88B3 /* MVVM.Kickstarter.SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
 				96B4E0BC2743306A00EC88B3 /* Architecture */,
 				96B4E08F27432DEB00EC88B3 /* Core */,
 				96B4E0CB274331DB00EC88B3 /* Services */,
 				96B4E0C52743312600EC88B3 /* UI */,
-				96B4E06427432D6100EC88B3 /* MVVM_Demo_SwiftUIApp.swift */,
+				96B4E06427432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift */,
 				96B4E06827432D6200EC88B3 /* Assets.xcassets */,
 				96B4E06A27432D6200EC88B3 /* Preview Content */,
 			);
-			path = MVVM.Demo.SwiftUI;
+			path = MVVM.Kickstarter.SwiftUI;
 			sourceTree = "<group>";
 		};
 		96B4E06A27432D6200EC88B3 /* Preview Content */ = {
@@ -287,14 +302,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		96B4E07427432D6300EC88B3 /* MVVM.Demo.SwiftUITests */ = {
+		96B4E07427432D6300EC88B3 /* MVVM.Kickstarter.SwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
 				964778892774F0C9002203DE /* TestExtensions */,
 				9647788E2774F1FD002203DE /* Services */,
 				96B4E07527432D6300EC88B3 /* MVVM_Demo_SwiftUITests.swift */,
 			);
-			path = MVVM.Demo.SwiftUITests;
+			path = MVVM.Kickstarter.SwiftUITests;
 			sourceTree = "<group>";
 		};
 		96B4E07E27432D6300EC88B3 /* MVVM.Demo.SwiftUIUITests */ = {
@@ -365,6 +380,7 @@
 		96B4E0C52743312600EC88B3 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				26CAF23E296067C300E0AB0B /* Splash */,
 				9665D9532745C1B50055F1F6 /* ColorWizard */,
 				96B4E0C62743312F00EC88B3 /* AppRootCoordinator */,
 				96B4E0D22743381500EC88B3 /* Landing */,
@@ -391,6 +407,7 @@
 				968D344B27CD93F500340C18 /* AlertService */,
 				96B4E0CC274331EE00EC88B3 /* AuthenticationService.swift */,
 				96B4E0CE274335A900EC88B3 /* ColorService.swift */,
+				26CAF243296068BD00E0AB0B /* WelcomeService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -558,7 +575,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 96B4E05C27432D6100EC88B3 /* Build configuration list for PBXProject "MVVM.Demo.SwiftUI" */;
+			buildConfigurationList = 96B4E05C27432D6100EC88B3 /* Build configuration list for PBXProject "MVVM.Kickstarter.SwiftUI" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -621,8 +638,10 @@
 				96B4E0EB274386FA00EC88B3 /* Color+SystemColors.swift in Sources */,
 				9665D95F2745C2E00055F1F6 /* ColorWizardContentView.swift in Sources */,
 				9665D9632745C3410055F1F6 /* ColorWizardConfigurationViewModel.swift in Sources */,
+				26CAF244296068BD00E0AB0B /* WelcomeService.swift in Sources */,
 				96B4E0C4274330E600EC88B3 /* ViewModelAssembly.swift in Sources */,
 				96B4E09327432E4000EC88B3 /* HapticFeedbackProvider.swift in Sources */,
+				26CAF240296067EB00E0AB0B /* SplashView.swift in Sources */,
 				96B4E0C82743313900EC88B3 /* AppRootCoordinatorView.swift in Sources */,
 				96B4E09627432E6800EC88B3 /* CancelBag.swift in Sources */,
 				96B4E0D42743382B00EC88B3 /* LandingView.swift in Sources */,
@@ -636,7 +655,7 @@
 				96B4E0B027432FD000EC88B3 /* Button+Extensions.swift in Sources */,
 				96B4E09127432E1100EC88B3 /* ViewModel.swift in Sources */,
 				96B4E0C2274330CB00EC88B3 /* ServiceAssembly.swift in Sources */,
-				96B4E06527432D6100EC88B3 /* MVVM_Demo_SwiftUIApp.swift in Sources */,
+				96B4E06527432D6100EC88B3 /* MVVM_Kickstarter_SwiftUIApp.swift in Sources */,
 				96B4E0A727432F1C00EC88B3 /* PassthroughSubject+Extensions.swift in Sources */,
 				96B4E09827432E7D00EC88B3 /* Just+Void.swift in Sources */,
 				9665D9552745C1D60055F1F6 /* ColorWizardCoordinatorView.swift in Sources */,
@@ -651,6 +670,7 @@
 				96B4E0DF2743396600EC88B3 /* ButtonTextStyle.swift in Sources */,
 				9665D95C2745C26F0055F1F6 /* ColorWizardPageCoordinator.swift in Sources */,
 				96B4E0DD2743393E00EC88B3 /* TextStyle.swift in Sources */,
+				26CAF2422960680B00E0AB0B /* SplashViewModel.swift in Sources */,
 				E9959A7328666409006FDF5A /* AlertManager+Environment.swift in Sources */,
 				96B4E0B327432FEB00EC88B3 /* EdgeInsets+Extensions.swift in Sources */,
 				96B4E09A27432E9300EC88B3 /* Publisher+DefinedScheduler.swift in Sources */,
@@ -974,7 +994,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		96B4E05C27432D6100EC88B3 /* Build configuration list for PBXProject "MVVM.Demo.SwiftUI" */ = {
+		96B4E05C27432D6100EC88B3 /* Build configuration list for PBXProject "MVVM.Kickstarter.SwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				96B4E08327432D6300EC88B3 /* Debug */,
